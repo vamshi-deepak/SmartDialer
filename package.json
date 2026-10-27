@@ -1,0 +1,24 @@
+{
+  "name": "smartdialer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Safe Progressive and Predictive Dialing Simulator",
+  "scripts": {
+    "dev": "npm --prefix backend run dev",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build": "npm --prefix backend run build && npm --prefix frontend run build",
+    "test": "npm --prefix backend test",
+    "seed": "npm --prefix backend run seed",
+    "load-test": "npm --prefix backend run load-test"
+  },
+  "keywords": [
+    "smartdialer",
+    "progressive-dialing",
+    "predictive-dialing",
+    "safety-controller",
+    "telecom-simulator"
+  ],
+  "author": "SmartDialer Engineering Team",
+  "license": "ISC"
+}

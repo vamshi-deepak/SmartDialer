@@ -1,0 +1,49 @@
+{
+  "campaign": {
+    "id": "seed-campaign-demo",
+    "name": "Synthetic Collections Demo",
+    "status": "STOPPED",
+    "config": {
+      "dialingMode": "PROGRESSIVE",
+      "maxConcurrentCalls": 2,
+      "targetAbandonmentRate": 0.03,
+      "reservationLeaseDurationSeconds": 15,
+      "providerId": "reliable"
+    }
+  },
+  "agents": [
+    {
+      "id": "seed-agent-001",
+      "name": "Test Agent 001",
+      "state": "AVAILABLE",
+      "currentCallId": null
+    },
+    {
+      "id": "seed-agent-002",
+      "name": "Test Agent 002",
+      "state": "AVAILABLE",
+      "currentCallId": null
+    }
+  ],
+  "borrowers": [
+    {
+      "id": "seed-borrower-001",
+      "name": "Synthetic Borrower 001",
+      "phoneNumber": "+15550100101",
+      "debtAmount": 1250,
+      "priority": 2,
+      "state": "QUEUED",
+      "attemptsCount": 0
+    },
+    {
+      "id": "seed-borrower-002",
+      "name": "Synthetic Borrower 002",
+      "phoneNumber": "+15550100102",
+      "debtAmount": 840,
+      "priority": 1,
+      "state": "QUEUED",
+      "attemptsCount": 0
+    }
+  ],
+  "calls": []
+}
